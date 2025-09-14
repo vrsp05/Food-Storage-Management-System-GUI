@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FSMS_GUI/1.0.0": {
+        "runtime": {
+          "FSMS_GUI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FSMS_GUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
