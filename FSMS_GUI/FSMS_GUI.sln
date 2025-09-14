@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSMS_GUI", "FSMS_GUI.csproj", "{84C5A0A0-396F-440C-95DF-DF916F1754B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		..\Copied_Code\Account_Manager.cs = ..\Copied_Code\Account_Manager.cs
+		..\Copied_Code\Dry_Items.cs = ..\Copied_Code\Dry_Items.cs
+		..\Copied_Code\Email_Service.cs = ..\Copied_Code\Email_Service.cs
+		..\Copied_Code\Expiration_Checker.cs = ..\Copied_Code\Expiration_Checker.cs
+		..\Copied_Code\Food_Item.cs = ..\Copied_Code\Food_Item.cs
+		..\Copied_Code\Food_Storage_Manager.cs = ..\Copied_Code\Food_Storage_Manager.cs
+		..\Copied_Code\Freezer_Items.cs = ..\Copied_Code\Freezer_Items.cs
+		..\Copied_Code\Input_Validator.cs = ..\Copied_Code\Input_Validator.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84C5A0A0-396F-440C-95DF-DF916F1754B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C5A0A0-396F-440C-95DF-DF916F1754B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C5A0A0-396F-440C-95DF-DF916F1754B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C5A0A0-396F-440C-95DF-DF916F1754B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {420100A3-D1E8-4C36-B782-EFDC04200F5E}
+	EndGlobalSection
+EndGlobal
