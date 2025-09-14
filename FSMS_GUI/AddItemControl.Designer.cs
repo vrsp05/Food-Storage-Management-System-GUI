@@ -162,6 +162,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             Controls.Add(btnSave);
             Controls.Add(lblStorageLocation);
             Controls.Add(cmbLocation);

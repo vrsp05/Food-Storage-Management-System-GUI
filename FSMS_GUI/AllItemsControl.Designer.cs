@@ -31,9 +31,9 @@
             dataGridView1 = new DataGridView();
             btnDelete = new Button();
             pnlDelete = new Panel();
-            btnEdit = new Button();
-            searchByName = new Label();
             txtSearch = new TextBox();
+            searchByName = new Label();
+            btnEdit = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             pnlDelete.SuspendLayout();
             SuspendLayout();
@@ -69,15 +69,12 @@
             pnlDelete.Size = new Size(696, 50);
             pnlDelete.TabIndex = 2;
             // 
-            // btnEdit
+            // txtSearch
             // 
-            btnEdit.Location = new Point(442, 6);
-            btnEdit.Name = "btnEdit";
-            btnEdit.Size = new Size(115, 25);
-            btnEdit.TabIndex = 2;
-            btnEdit.Text = "Edit Selected Item";
-            btnEdit.UseVisualStyleBackColor = true;
-            btnEdit.Click += btnEdit_Click;
+            txtSearch.Location = new Point(144, 8);
+            txtSearch.Name = "txtSearch";
+            txtSearch.Size = new Size(128, 23);
+            txtSearch.TabIndex = 4;
             // 
             // searchByName
             // 
@@ -89,17 +86,21 @@
             searchByName.TabIndex = 3;
             searchByName.Text = "Search by Name:";
             // 
-            // txtSearch
+            // btnEdit
             // 
-            txtSearch.Location = new Point(144, 8);
-            txtSearch.Name = "txtSearch";
-            txtSearch.Size = new Size(128, 23);
-            txtSearch.TabIndex = 4;
+            btnEdit.Location = new Point(442, 6);
+            btnEdit.Name = "btnEdit";
+            btnEdit.Size = new Size(115, 25);
+            btnEdit.TabIndex = 2;
+            btnEdit.Text = "Edit Selected Item";
+            btnEdit.UseVisualStyleBackColor = true;
+            btnEdit.Click += btnEdit_Click;
             // 
             // AllItemsControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             Controls.Add(dataGridView1);
             Controls.Add(pnlDelete);
             Name = "AllItemsControl";

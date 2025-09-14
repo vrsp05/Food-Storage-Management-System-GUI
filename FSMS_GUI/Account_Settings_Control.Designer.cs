@@ -304,6 +304,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             Controls.Add(groupDeleteAccount);
             Controls.Add(groupAccountDetails);
             Controls.Add(groupBox3);
@@ -311,7 +312,7 @@
             Controls.Add(groupBox1);
             Margin = new Padding(4, 3, 4, 3);
             Name = "AccountSettingsControl";
-            Size = new Size(509, 813);
+            Size = new Size(509, 737);
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);

@@ -35,8 +35,8 @@
             btnAllItems = new Button();
             lblWelcome = new Label();
             panelNav = new Panel();
-            panelMain = new Panel();
             btnAccountSettings = new Button();
+            panelMain = new Panel();
             panelHeader.SuspendLayout();
             panelNav.SuspendLayout();
             SuspendLayout();
@@ -119,14 +119,6 @@
             panelNav.Size = new Size(200, 350);
             panelNav.TabIndex = 1;
             // 
-            // panelMain
-            // 
-            panelMain.Dock = DockStyle.Fill;
-            panelMain.Location = new Point(200, 100);
-            panelMain.Name = "panelMain";
-            panelMain.Size = new Size(600, 350);
-            panelMain.TabIndex = 2;
-            // 
             // btnAccountSettings
             // 
             btnAccountSettings.Location = new Point(3, 6);
@@ -137,10 +129,19 @@
             btnAccountSettings.UseVisualStyleBackColor = true;
             btnAccountSettings.Click += btnAccountSettings_Click;
             // 
+            // panelMain
+            // 
+            panelMain.Dock = DockStyle.Fill;
+            panelMain.Location = new Point(200, 100);
+            panelMain.Name = "panelMain";
+            panelMain.Size = new Size(600, 350);
+            panelMain.TabIndex = 2;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             ClientSize = new Size(800, 450);
             Controls.Add(panelMain);
             Controls.Add(panelNav);

@@ -17,64 +17,70 @@
 
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtPasswordEntry = new System.Windows.Forms.TextBox();
-            this.btnOK = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            label1 = new Label();
+            txtPasswordEntry = new TextBox();
+            btnOK = new Button();
+            btnCancel = new Button();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(215, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Please enter your current password to continue:";
+            label1.AutoSize = true;
+            label1.Location = new Point(29, 35);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(258, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Please enter your current password to continue:";
             // 
             // txtPasswordEntry
             // 
-            this.txtPasswordEntry.Location = new System.Drawing.Point(28, 55);
-            this.txtPasswordEntry.Name = "txtPasswordEntry";
-            this.txtPasswordEntry.Size = new System.Drawing.Size(310, 20);
-            this.txtPasswordEntry.TabIndex = 1;
-            this.txtPasswordEntry.UseSystemPasswordChar = true;
+            txtPasswordEntry.Location = new Point(33, 63);
+            txtPasswordEntry.Margin = new Padding(4, 3, 4, 3);
+            txtPasswordEntry.Name = "txtPasswordEntry";
+            txtPasswordEntry.Size = new Size(361, 23);
+            txtPasswordEntry.TabIndex = 1;
+            txtPasswordEntry.UseSystemPasswordChar = true;
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(182, 100);
-            this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 23);
-            this.btnOK.TabIndex = 2;
-            this.btnOK.Text = "OK";
-            this.btnOK.UseVisualStyleBackColor = true;
-            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
+            btnOK.Location = new Point(212, 115);
+            btnOK.Margin = new Padding(4, 3, 4, 3);
+            btnOK.Name = "btnOK";
+            btnOK.Size = new Size(88, 27);
+            btnOK.TabIndex = 2;
+            btnOK.Text = "OK";
+            btnOK.UseVisualStyleBackColor = true;
+            btnOK.Click += btnOK_Click;
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(263, 100);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 3;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            btnCancel.Location = new Point(307, 115);
+            btnCancel.Margin = new Padding(4, 3, 4, 3);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(88, 27);
+            btnCancel.TabIndex = 3;
+            btnCancel.Text = "Cancel";
+            btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // PasswordConfirmForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 161);
-            this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.btnOK);
-            this.Controls.Add(this.txtPasswordEntry);
-            this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "PasswordConfirmForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Security Check";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
+            ClientSize = new Size(425, 186);
+            Controls.Add(btnCancel);
+            Controls.Add(btnOK);
+            Controls.Add(txtPasswordEntry);
+            Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "PasswordConfirmForm";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Security Check";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
