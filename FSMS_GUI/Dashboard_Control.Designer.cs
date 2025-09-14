@@ -47,9 +47,9 @@
             lblExpiringSoon.Dock = DockStyle.Top;
             lblExpiringSoon.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblExpiringSoon.Location = new Point(0, 0);
-            lblExpiringSoon.Margin = new Padding(4, 0, 4, 0);
+            lblExpiringSoon.Margin = new Padding(6, 0, 6, 0);
             lblExpiringSoon.Name = "lblExpiringSoon";
-            lblExpiringSoon.Size = new Size(267, 25);
+            lblExpiringSoon.Size = new Size(412, 40);
             lblExpiringSoon.TabIndex = 0;
             lblExpiringSoon.Text = "Items Expiring Within 7 Days";
             // 
@@ -57,10 +57,11 @@
             // 
             dgvExpiringSoon.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvExpiringSoon.Dock = DockStyle.Fill;
-            dgvExpiringSoon.Location = new Point(0, 25);
-            dgvExpiringSoon.Margin = new Padding(4, 3, 4, 3);
+            dgvExpiringSoon.Location = new Point(0, 40);
+            dgvExpiringSoon.Margin = new Padding(6, 5, 6, 5);
             dgvExpiringSoon.Name = "dgvExpiringSoon";
-            dgvExpiringSoon.Size = new Size(500, 201);
+            dgvExpiringSoon.RowHeadersWidth = 62;
+            dgvExpiringSoon.Size = new Size(714, 336);
             dgvExpiringSoon.TabIndex = 1;
             // 
             // lblExpired
@@ -69,9 +70,9 @@
             lblExpired.Dock = DockStyle.Top;
             lblExpired.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblExpired.Location = new Point(0, 0);
-            lblExpired.Margin = new Padding(4, 0, 4, 0);
+            lblExpired.Margin = new Padding(6, 0, 6, 0);
             lblExpired.Name = "lblExpired";
-            lblExpired.Size = new Size(133, 25);
+            lblExpired.Size = new Size(204, 40);
             lblExpired.TabIndex = 2;
             lblExpired.Text = "Expired Items";
             // 
@@ -79,16 +80,18 @@
             // 
             dgvExpired.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvExpired.Dock = DockStyle.Fill;
-            dgvExpired.Location = new Point(0, 25);
-            dgvExpired.Margin = new Padding(4, 3, 4, 3);
+            dgvExpired.Location = new Point(0, 40);
+            dgvExpired.Margin = new Padding(6, 5, 6, 5);
             dgvExpired.Name = "dgvExpired";
-            dgvExpired.Size = new Size(500, 245);
+            dgvExpired.RowHeadersWidth = 62;
+            dgvExpired.Size = new Size(714, 410);
             dgvExpired.TabIndex = 3;
             // 
             // splitContainer1
             // 
             splitContainer1.Dock = DockStyle.Fill;
             splitContainer1.Location = new Point(0, 0);
+            splitContainer1.Margin = new Padding(4, 5, 4, 5);
             splitContainer1.Name = "splitContainer1";
             splitContainer1.Orientation = Orientation.Horizontal;
             // 
@@ -103,19 +106,20 @@
             splitContainer1.Panel2.BackColor = Color.IndianRed;
             splitContainer1.Panel2.Controls.Add(dgvExpired);
             splitContainer1.Panel2.Controls.Add(lblExpired);
-            splitContainer1.Size = new Size(500, 500);
-            splitContainer1.SplitterDistance = 226;
+            splitContainer1.Size = new Size(714, 833);
+            splitContainer1.SplitterDistance = 376;
+            splitContainer1.SplitterWidth = 7;
             splitContainer1.TabIndex = 4;
             // 
             // DashboardControl
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             Controls.Add(splitContainer1);
-            Margin = new Padding(4, 3, 4, 3);
+            Margin = new Padding(6, 5, 6, 5);
             Name = "DashboardControl";
-            Size = new Size(500, 500);
+            Size = new Size(714, 833);
             ((System.ComponentModel.ISupportInitialize)dgvExpiringSoon).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvExpired).EndInit();
             splitContainer1.Panel1.ResumeLayout(false);
