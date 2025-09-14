@@ -1,6 +1,0 @@
-# Visual Studio generated files
-/.vs/
-
-# Build results
-[Bb]in/
-[Oo]bj/
