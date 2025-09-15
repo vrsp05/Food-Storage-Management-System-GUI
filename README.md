@@ -1,4 +1,4 @@
-###**Food Storage Management System (FSMS)**
+# Food Storage Management System (FSMS)
 Version 1.0.0 | A C# .NET 8 WinForms Application by Victor Santana
 
 A robust and intuitive desktop application designed to help users efficiently manage their food inventory, track expiration dates, and reduce waste.
@@ -13,7 +13,7 @@ For a detailed technical breakdown of the project's architecture, features, and 
 
 Click here to view the Project Documentation PDF
 
-##**Key Features**
+## Key Features
 - **Secure User Account Management:** Full CRUD (Create, Read, Update, Delete) operations for user accounts, complete with a password security check for sensitive actions.
 - **Complete Food Inventory Management:** Full CRUD operations for food items, allowing users to add, view, edit, and delete their stored goods.
 - **Intelligent Item Coding:** Items are automatically assigned a unique code based on storage location (D-#### for Dry, F-#### for Freezer), which updates dynamically if the location is changed.
@@ -22,7 +22,7 @@ Click here to view the Project Documentation PDF
 - **Automated Email Summaries:** Upon exiting, users receive an automated email summarizing the status of their expiring and expired items.
 - **Professional Installer:** The application is distributed via a ClickOnce installer (setup.exe) that handles all dependencies.
 
-##**How to Install and Run**
+## How to Install and Run
 
 1- **Download the Installer:**
 - Go to the Releases Page of this repository.
@@ -43,11 +43,12 @@ Click here to view the Project Documentation PDF
 
 (For a visual guide, please watch the YouTube tutorial.)
 
-##**Technologies Used**
+## Technologies Used
+
 -**Language:** C#
 -**Framework:** .NET 8
 -**User Interface:** Windows Forms (WinForms)
 
-##**My Learning Journey**
+## My Learning Journey
 
 This project was a comprehensive exercise in migrating a fully functional console application to a modern, event-driven GUI application using Windows Forms. It strengthened my skills in Object-Oriented Programming, robust file handling for data persistence, and designing an intuitive, user-friendly interface. A key challenge and learning experience was refactoring the original console-based logic into decoupled services (Validation_Service.cs) that could be reused effectively within the GUI's event-based architecture. Implementing features like the security check and the ClickOnce installer provided valuable insight into building secure, distributable, real-world applications.
