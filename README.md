@@ -13,7 +13,7 @@ A complete video demonstration, including a step-by-step installation guide, is 
 **Full Documentation**
 For a detailed technical breakdown of the project's architecture, features, and code, please see the full documentation.
 
-[Click here to view the Project Documentation PDF](https://docs.google.com/document/d/1Nq1Xgx2npbi6bhEQofvrDeZHvifQHePCPfij4twRYco/edit?usp=sharing)
+[Click here to view the Project Documentation](https://docs.google.com/document/d/1Nq1Xgx2npbi6bhEQofvrDeZHvifQHePCPfij4twRYco/edit?usp=sharing)
 
 ## Key Features
 - **Secure User Account Management:** Full CRUD (Create, Read, Update, Delete) operations for user accounts, complete with a password security check for sensitive actions.
