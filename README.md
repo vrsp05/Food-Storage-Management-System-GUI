@@ -8,7 +8,7 @@ A complete video demonstration, including a step-by-step installation guide, is 
 
 - [Click here to watch the YouTube Tutorial](https://youtu.be/htYl92kBPfg)
 
-- [Click here to watch the YouTube Demo]()
+- [Click here to watch the YouTube Demo](https://youtu.be/vZ0mJm85vvQ)
 
 **Full Documentation**
 For a detailed technical breakdown of the project's architecture, features, and code, please see the full documentation.
