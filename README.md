@@ -45,9 +45,11 @@ Click here to view the Project Documentation PDF
 
 ## Technologies Used
 
--**Language:** C#
--**Framework:** .NET 8
--**User Interface:** Windows Forms (WinForms)
+- **Language:** C#
+
+- **Framework:** .NET 8
+
+- **User Interface:** Windows Forms (WinForms)
 
 ## My Learning Journey
 
