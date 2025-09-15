@@ -6,7 +6,9 @@ A robust and intuitive desktop application designed to help users efficiently ma
 **Live Demo & Installation Guide**
 A complete video demonstration, including a step-by-step installation guide, is available on YouTube.
 
-Click here to watch the YouTube Tutorial & Demo
+- [Click here to watch the YouTube Tutorial](https://youtu.be/htYl92kBPfg)
+
+- [Click here to watch the YouTube Tutorial]()
 
 **Full Documentation**
 For a detailed technical breakdown of the project's architecture, features, and code, please see the full documentation.
