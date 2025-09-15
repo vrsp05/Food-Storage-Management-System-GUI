@@ -27,7 +27,7 @@ For a detailed technical breakdown of the project's architecture, features, and 
 ## How to Install and Run
 
 1- **Download the Installer:**
-- Go to the Releases Page of this repository.
+- Go to the [Releases Page] of this repository.(https://github.com/vrsp05/Food-Storage-Management-System-GUI/releases)
 - Under the latest release (e.g., v1.0.0), download the .zip file (e.g., FSMS_installation_files.zip).
 
 2- **Unzip the Package:**
